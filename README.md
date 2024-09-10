@@ -1,20 +1,47 @@
-# Cryptocurrency Tracker with React JS, Material UI and Chart JS
+React Crypto Tracker
+I built this cryptocurrency tracker using React to provide real-time updates on cryptocurrency prices and market trends. This app is designed to be simple, responsive, and useful for anyone looking to monitor cryptocurrency markets.
 
-## [Watch Full Tutorial on Youtube here](https://youtu.be/QA6oTpMZp84)
+Features
+Real-time data: Fetches the latest prices and market data from CoinGecko API.
+Search function: Allows users to search for specific cryptocurrencies.
+Market details: Displays key statistics like market cap, 24-hour volume, and price.
+Mobile-friendly: Designed with responsiveness in mind.
+Technologies Used
+React.js for building the UI components and managing state.
+CoinGecko API to fetch cryptocurrency data.
+CSS for custom styling and ensuring a clean, responsive layout.
+Installation
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/react-crypto-tracker.git
+Navigate to the project directory:
+bash
+Copy code
+cd react-crypto-tracker
+Install dependencies:
+bash
+Copy code
+npm install
+Start the development server:
+bash
+Copy code
+npm start
+Usage
+Open the app in your browser.
+Use the search bar to find a cryptocurrency.
+View real-time price, market cap, and other details.
+API Used
+This app fetches data from the CoinGecko API, which provides up-to-date cryptocurrency market information.
 
-[![crypto](https://user-images.githubusercontent.com/51760520/136682357-5d269bb9-0e36-4f26-a468-fb2963dd9468.png)](https://youtu.be/QA6oTpMZp84)
-
-## Demo
-#### Here is a working live demo :  https://crypto-hunter.netlify.app/
-
-## Built with 
-
-- [React JS](https://reactjs.org/)
-- [Material UI](https://v4.mui.com/)
-- [Chart JS](https://reactchartjs.github.io/react-chartjs-2/#/)
-
-## Made with ♥ By [Roadside Coder](https://www.youtube.com/channel/UCIPZVAwDGa-A4ZJxCBvXRuQ)
-
-[![Piyush Agarwal](https://avatars1.githubusercontent.com/u/51760520?v=3&s=144)](https://github.com/piyush-eon)
-
-MIT © [Piyush Agarwal ](https://github.com/piyush-eon)
+Project Structure
+src/: Contains the main source code.
+components/: React components for the app (e.g., search bar, crypto card).
+services/: API calls to fetch crypto data.
+styles/: Custom CSS files for styling the application.
+Future Enhancements
+Add graphical charts for price history.
+Enable user authentication for saving favorite coins.
+Support for multi-language and multi-currency.
+Contributing
+If you'd like to contribute or report an issue, feel free to submit a pull request or create an issue.
